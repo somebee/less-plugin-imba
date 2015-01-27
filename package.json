@@ -1,0 +1,37 @@
+{
+    "name": "less-plugin-imba",
+    "version": "1.0.0",
+    "description": "imba plugin for less",
+    "homepage": "http://lesscss.org",
+    "author": {
+        "name": "Sindre Aarsaether"
+    },
+    "contributors": [
+        "Sindre Aarsaether"
+    ],
+    "bugs": {
+        "url": "https://github.com/somebee/less-plugin-imba/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/somebee/less-plugin-imba.git"
+    },
+    "licenses": [
+        {
+            "type": "Apache v2",
+            "url": "https://github.com/somebee/less-plugin-imba/blob/master/LICENSE"
+        }
+    ],
+    "main": "lib/index.js",
+    "engines": {
+        "node": ">=0.4.2"
+    },
+    "devDependencies": {
+        "less": ">=2.0.0",
+	    "diff": "^1.0"
+    },
+    "keywords": [
+        "less plugins",
+        "imba"
+    ]
+}
