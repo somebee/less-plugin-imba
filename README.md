@@ -9,6 +9,5 @@ Makes it easy to write css for imba-tags.
 ```
 var plugin = require('less-plugin-imba');
 less.render(lessString, { plugins: [plugin] })
-  .then(
 ```
 
